@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FDFFFF"
+    tools:context=".activityMM">
+
+    <ImageView
+        android:id="@+id/emotionviewCh2"
+        android:layout_width="84dp"
+        android:layout_height="65dp"
+        android:layout_below="@+id/ProfileBtn"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="69dp"
+        android:layout_marginLeft="69dp"
+        android:layout_marginTop="69dp"
+        android:layout_marginEnd="6dp"
+        android:layout_marginRight="6dp"
+        android:layout_toEndOf="@+id/howfeelCh3"
+        android:layout_toRightOf="@+id/howfeelCh3"
+        android:contentDescription="image that states user emotion status"
+        android:src="@drawable/joyful"
+        android:visibility="invisible" />
+
+    <Button
+        android:id="@+id/emotionbtnCh2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/howfeelCh3"
+        android:layout_marginStart="25dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="15dp"
+        android:layout_toEndOf="@+id/EmotionTxt"
+        android:layout_toRightOf="@+id/EmotionTxt"
+        android:background="#E2009688"
+        android:contentDescription="button for emotion change"
+        android:fadingEdge="none"
+        android:text="Change"
+        android:textAllCaps="false"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="#FBFAFA"
+        android:visibility="invisible"
+        tools:text="change" />
+
+    <TextView
+        android:id="@+id/howfeelCh3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/IntroText"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="50dp"
+        android:background="#FEFFFF"
+        android:text="How are you feeling right now ?"
+        android:textColor="#0278A8"
+        android:textSize="18sp" />
+
+    <Spinner
+        android:id="@+id/chapters"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/execBtn"
+        android:layout_marginStart="37dp"
+        android:layout_marginLeft="37dp"
+        android:layout_marginTop="19dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_toEndOf="@+id/tutorialbtnCh00"
+        android:layout_toRightOf="@+id/tutorialbtnCh00"
+        android:background="#E2009688"
+        android:entries="@array/chapters"
+        android:scrollbarStyle="insideInset"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/weekofday"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/UsernameTxt"
+        android:layout_width="80dp"
+        android:layout_height="44dp"
+        android:layout_below="@+id/UserProfilePic"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp"
+        android:autoText="false"
+        android:clickable="true"
+        android:contentDescription="@string/welcome_user"
+        android:gravity="right"
+        android:text="@string/text"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#0278A8"
+        android:textSize="18sp"
+        android:textStyle="italic" />
+
+    <Button
+        android:id="@+id/tutorialbtnCh00"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/dimensiontext"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="35dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="103dp"
+        android:background="#E2009688"
+        android:text="@string/tutorial"
+        android:textColor="#E6E6EA"
+        android:textSize="14sp"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/ProfileBtn"
+        android:layout_width="78dp"
+        android:layout_height="26dp"
+        android:layout_below="@+id/UserProfilePic"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="81dp"
+        android:layout_marginEnd="3dp"
+        android:layout_marginRight="3dp"
+        android:background="#E2009688"
+        android:text="ProfileMenu"
+        android:textAllCaps="false"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="#F4EEEE"
+        android:textSize="18sp"
+        android:visibility="invisible" />
+
+    <ImageView
+        android:id="@+id/UserProfilePic"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="11dp"
+        android:layout_marginRight="11dp"
+        app:srcCompat="@drawable/guest_user" />
+
+    <Button
+        android:id="@+id/execBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/changebtn02"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="166dp"
+        android:layout_marginLeft="166dp"
+        android:layout_marginTop="100dp"
+        android:background="#E2009688"
+        android:text="execute"
+        android:textAllCaps="false"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="#FFFFFF" />
+
+    <TextView
+        android:id="@+id/EmotionTxt"
+        android:layout_width="128dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/howfeelCh3"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="25dp"
+        android:text="neutral"
+        android:textColor="#070707"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/InitPlanBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/learnStyleTxtQ"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="79dp"
+        android:layout_marginEnd="19dp"
+        android:layout_marginRight="19dp"
+        android:background="#E2009688"
+        android:text="Init Plan"
+        android:textColor="#FAF6F6"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/IntroText"
+        android:layout_width="282dp"
+        android:layout_height="95dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="50dp"
+        android:text="Let's get started, first answer the questions bellow (you can change your answer by clicking the mood text). Then press the execute button to start the procedure."
+        android:textColor="#0278A8"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/learnStyleTxtQ"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/EmotionTxt"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="56dp"
+        android:text="What's your favorite dimension?"
+        android:textColor="#0278A8"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/changebtn02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/learnStyleTxtQ"
+        android:layout_marginStart="25dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="15dp"
+        android:layout_toEndOf="@+id/dimensiontext"
+        android:layout_toRightOf="@+id/dimensiontext"
+        android:background="#E2009688"
+        android:text="change"
+        android:textAllCaps="false"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="#FBFAFA"
+        android:textSize="18sp"
+        android:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/dimensiontext"
+        android:layout_width="128dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/learnStyleTxtQ"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:text="Active /Reflective"
+        android:textColor="#0B0A0A"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/InfoBtn"
+        style="@style/Widget.AppCompat.Button"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginBottom="5dp"
+        android:background="#E2009688"
+        android:hint="Information"
+        android:text="?"
+        android:textColor="#FBFBFB"
+        android:textColorHint="#0B0A0A"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>

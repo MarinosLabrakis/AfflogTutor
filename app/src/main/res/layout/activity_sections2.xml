@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/Sections2"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#FFFFFF"
+    tools:context=".Sections">
+
+    <RelativeLayout
+        android:id="@+id/RelativeSections2"
+        android:layout_width="match_parent"
+        android:layout_height="800dp">
+
+        <TextView
+            android:id="@+id/textViewSec"
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:layout_below="@+id/imageViewSec1"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginEnd="9dp"
+            android:layout_marginRight="9dp"
+            android:text='Check to see that you have all of the components of the game.  Before you start setting up the game, check to see that you have everything. Doing so will also help you to become more familiar with the game pieces and parts. 19 terrain hexes (four sheep, four wheat, four wood, three brick, three ore, and one desert). Six sea frame pieces. 18 circular number tokens. A black/grey robber pawn. Four sets of wooden player pieces in four different colors each containing five settlements, four cities, and 15 roads. 25 development cards consisting of 14 knight/soldier cards, 6 progress cards, and 5 victory points. Resource cards of each terrain hex except for the desert. Four building costs cards, one for each player. "Longest Road" and "Largest Army" award cards. Two dice, one red, one yellow. Extra harbor pieces for placement of random harbors (optional).'
+            android:textColor="#0B0A0A"
+            android:textSize="16sp" />
+
+        <ImageView
+            android:id="@+id/imageViewSec1"
+            android:layout_width="390dp"
+            android:layout_height="232dp"
+            android:layout_below="@+id/textViewSecTitle"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp"
+            app:srcCompat="@drawable/tut01" />
+
+        <Button
+            android:id="@+id/EndBtnSec2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textViewSec"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginStart="150dp"
+            android:layout_marginLeft="150dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="150dp"
+            android:layout_marginRight="150dp"
+            android:text="End" />
+
+        <Button
+            android:id="@+id/NextBtnSec2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textViewSec"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginRight="15dp"
+            android:text="Next" />
+
+        <Button
+            android:id="@+id/prevBtnSec2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textViewSec"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginStart="15dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"
+            android:text="Prev" />
+
+        <TextView
+            android:id="@+id/TesttextView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            android:visibility="invisible" />
+    </RelativeLayout>
+</ScrollView>
+

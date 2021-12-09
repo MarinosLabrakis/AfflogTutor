@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/chapter0"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".Chapter0">
+
+
+    <TextView
+        android:id="@+id/howfeelCh"
+        android:layout_width="216dp"
+        android:layout_height="33dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="139dp"
+        android:layout_marginLeft="139dp"
+        android:layout_marginTop="5dp"
+        android:background="#FFFFFF"
+        android:text="How are you feeling right now ?"
+        android:textColor="#3C3F41" />
+
+    <Button
+        android:id="@+id/emotionbtnCh00"
+        android:layout_width="87dp"
+        android:layout_height="27dp"
+        android:layout_below="@+id/howfeelCh"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="259dp"
+        android:layout_marginLeft="259dp"
+        android:layout_marginTop="-4dp"
+        android:layout_marginEnd="-12dp"
+        android:layout_marginRight="-12dp"
+        android:layout_toStartOf="@+id/emotionview"
+        android:layout_toLeftOf="@+id/emotionview"
+        android:background="#E2009688"
+        android:contentDescription="button for emotion change"
+        android:fadingEdge="none"
+        android:text="change"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="#D2F4F8"
+        tools:text="change" />
+
+    <ImageView
+        android:id="@+id/emotionviewCh00"
+        android:layout_width="58dp"
+        android:layout_height="59dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="-1dp"
+        android:layout_marginEnd="-1dp"
+        android:layout_marginRight="-1dp"
+        android:layout_toEndOf="@+id/howfeel"
+        android:layout_toRightOf="@+id/howfeel"
+        android:contentDescription="image that states user emotion status"
+        android:src="@drawable/joyful" />
+
+    <TextView
+        android:id="@+id/textCh00"
+        android:layout_width="180dp"
+        android:layout_height="55dp"
+        android:layout_below="@+id/emotionbtnCh00"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="225dp"
+        android:layout_marginRight="225dp"
+        android:background="#0C8178"
+        android:text="Chapter 00"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+        android:textColor="#CDDC39"
+        android:textSize="36sp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/ch00Overview"
+        android:layout_width="294dp"
+        android:layout_height="169dp"
+        android:layout_below="@+id/textCh00"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginRight="20dp"
+        android:background="#FFFFFF"
+        android:text="Overview:The island of Catan lies before you. The isle consists of 19 terrain tiles surrounded by ocean. Your goal is to settle on Catan, and expand your territory until it becomes the largest and most glorious in Catan."
+        android:textColor="#0C0C0C"
+        android:textSize="20sp"
+        android:textStyle="italic" />
+
+    <ImageView
+        android:id="@+id/ch00View"
+        android:layout_width="294dp"
+        android:layout_height="179dp"
+        android:layout_below="@+id/ch00Overview"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="50dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginRight="50dp"/>
+        //app:srcCompat="@drawable/ch0" />
+
+</RelativeLayout>

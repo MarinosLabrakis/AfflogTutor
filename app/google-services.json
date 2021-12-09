@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "178777526144",
+    "firebase_url": "https://afflog-tutor.firebaseio.com",
+    "project_id": "afflog-tutor",
+    "storage_bucket": "afflog-tutor.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:178777526144:android:1fb6bf7f8ee8d461f6fb65",
+        "android_client_info": {
+          "package_name": "com.example.myapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "178777526144-iol3lld997jqsimaomjf3p49jmutpjsa.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.myapp",
+            "certificate_hash": "a5ba6de6ea5fd18101afa17bce8f170b36aa003a"
+          }
+        },
+        {
+          "client_id": "178777526144-ig4ddec0usompah8532t9itne6ii12rh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCV326tfEiQqyh58zTD_JGG93iA7rBtF-Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "178777526144-ig4ddec0usompah8532t9itne6ii12rh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

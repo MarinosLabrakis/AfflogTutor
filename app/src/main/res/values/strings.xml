@@ -1,0 +1,53 @@
+<resources>
+    <string name="app_name">Afflog Tutor</string>
+    <string name="start_lesson">Start</string>
+    <string name="create_lesson">Create Lesson</string>
+    <string name="infos">infos</string>
+    <string name="welcometocatan">welcomeimage</string>
+    <string name="text">text</string>
+    <string name="welcome_user">welcome user</string>
+    <string name="button_that_gives_helpful_tips">button that gives helpful tips</string>
+    <string name="button_that_creates_a_lesson_session">button that creates a lesson session</string>
+    <string name="image_that_states_user_emotion_status">image that states user emotion status</string>
+    <string name="button_for_emotion_change">button for emotion change</string>
+    <string name="change">change</string>
+    <string name="how_are_you_feeling_right_now">How are you feeling right now ?</string>
+    <string name="tutorial">Tutorial</string>
+    <string name="username">Username</string>
+    <string name="email">Email</string>
+    <string name="password_text">Password</string>
+    <string name="password">Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="registeration">Registeration</string>
+    <string name="tutorial_01">Tutorial 01</string>
+    <string name="start">Start</string>
+    <string name="next_tut">Next</string>
+    <string name="prev_tut">Previous</string>
+    <string name="check_to_see_that_you_have_all_of_the_components_of_the_game">Check to see that you have all of the components of the game.</string>
+    <string name="button_that_starts_the_app">button that starts the app</string>
+    <string name="register">Register</string>
+    <string name="login">Login</string>
+    <string name="login_text">login text</string>
+    <string name="check_to_see">Check to see that you have all of the components of the game. Before you start setting up the game, check to see that you have everything. Doing so will also help you to become more familiar with the game pieces and parts. 19 terrain hexes (four sheep, four wheat, four wood, three brick, three ore, and one desert). Six sea frame pieces. 18 circular number tokens. A black/grey robber pawn. Four sets of wooden player pieces in four different colors each containing five settlements, four cities, and 15 roads. 25 development cards consisting of 14 knight/soldier cards, 6 progress cards, and 5 victory points.</string>
+    <string name="section_01">Section 01</string>
+    <string name="next_section">Next</string>
+    <string name="prev_section">Previous</string>
+    <string name="NotValidTUT">Not Valid Tutotrial</string>
+    <string name="SthWentWrongTUT">Something went wrong, try again!</string>
+    <string name="SuSCourTUT">Successful completion of the course!</string>
+    <string-array name="chapters">
+        <item>Select Chapter</item>
+        <item>Chapter 1</item>
+        <item>Chapter 2</item>
+        <item>Chapter 3</item>
+        <item>Chapter 4</item>
+    </string-array>
+    <string-array name="tutorials">
+        <item>Select Tutorial</item>
+        <item>tutorial 1</item>
+        <item>tutorial 2</item>
+        <item>tutorial 3</item>
+        <item>tutorial 4</item>
+        <item>tutorial 5</item>
+    </string-array>
+</resources>

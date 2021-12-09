@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/chapter3"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".Chapter4">
+
+
+    <TextView
+        android:id="@+id/howfeelCh"
+        android:layout_width="216dp"
+        android:layout_height="33dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="139dp"
+        android:layout_marginLeft="139dp"
+        android:layout_marginTop="5dp"
+        android:background="#FFFFFF"
+        android:text="How are you feeling right now ?"
+        android:textColor="#070707" />
+
+    <Button
+        android:id="@+id/emotionbtnCh04"
+        android:layout_width="87dp"
+        android:layout_height="27dp"
+        android:layout_below="@+id/howfeelCh"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="279dp"
+        android:layout_marginLeft="279dp"
+        android:layout_marginTop="-8dp"
+        android:layout_marginEnd="-12dp"
+        android:layout_marginRight="-12dp"
+        android:layout_toStartOf="@+id/emotionviewCh04"
+        android:layout_toLeftOf="@+id/emotionviewCh04"
+        android:background="#E2009688"
+        android:contentDescription="button for emotion change"
+        android:fadingEdge="none"
+        android:text="change"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="#D2F4F8"
+        tools:text="change" />
+
+    <ImageView
+        android:id="@+id/emotionviewCh04"
+        android:layout_width="58dp"
+        android:layout_height="59dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="-1dp"
+        android:layout_marginEnd="-1dp"
+        android:layout_marginRight="-1dp"
+        android:layout_toEndOf="@+id/howfeel"
+        android:layout_toRightOf="@+id/howfeel"
+        android:contentDescription="image that states user emotion status"
+        android:src="@drawable/joyful" />
+
+    <TextView
+        android:id="@+id/textCh04"
+        android:layout_width="180dp"
+        android:layout_height="55dp"
+        android:layout_below="@+id/emotionbtnCh04"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="225dp"
+        android:layout_marginRight="225dp"
+        android:background="#0C8178"
+        android:text="Chapter 04"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+        android:textColor="#CDDC39"
+        android:textSize="36sp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/ch04text"
+        android:layout_width="180dp"
+        android:layout_height="25dp"
+        android:layout_below="@+id/textCh04"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="225dp"
+        android:layout_marginRight="225dp"
+        android:text="Strategies"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/ch04StartBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageViewCh4"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="160dp"
+        android:layout_marginLeft="160dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="160dp"
+        android:layout_marginRight="160dp"
+        android:background="#E2009688"
+        android:text="Start"
+        android:textColor="#EFE9E9" />
+
+    <ImageView
+        android:id="@+id/imageViewCh4"
+        android:layout_width="wrap_content"
+        android:layout_height="209dp"
+        android:layout_below="@+id/ch04text"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="70dp"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="70dp"
+        android:layout_marginRight="70dp"
+      />//  app:srcCompat="@drawable/ch4" />
+
+
+</RelativeLayout>
